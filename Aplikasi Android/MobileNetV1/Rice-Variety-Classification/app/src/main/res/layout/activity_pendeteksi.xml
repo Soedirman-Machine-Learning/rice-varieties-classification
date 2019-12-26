@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pendeteksi">
+
+    <com.priyankvasa.android.cameraviewex.CameraView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true"
+        app:autoFocus="continuous_picture"
+        app:awb="auto"
+        app:cameraMode="single_capture"
+        app:facing="back"
+        app:flash="auto"
+        app:opticalStabilization="true"
+        app:outputFormat="rgba_8888"
+        app:pinchToZoom="true"
+        app:shutter="short_time"
+        app:touchToFocus="true"
+        app:zsl="true" />
+
+    <TextView
+        android:id="@+id/capturePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:background="#8000CC33"
+        android:padding="7dp"
+        android:textSize="30sp"
+        android:text="Deteksi"
+        android:shadowColor="@android:color/darker_gray"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/prediction_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000099"
+        android:text="HASIL PREDIKSI :"
+        android:fontFamily="times"
+        android:textAlignment="center"
+        android:layout_marginBottom="63dp"
+        android:background="#9000CC33"
+        app:layout_constraintBottom_toBottomOf="parent" />
+    <TextView
+        android:id="@+id/result_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#000099"
+        android:text="@string/hasil_1_nhasil_2_nhasil_3"
+        android:fontFamily="times"
+        android:textAlignment="center"
+        android:layout_marginBottom="0dp"
+        android:background="#9000CC33"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
