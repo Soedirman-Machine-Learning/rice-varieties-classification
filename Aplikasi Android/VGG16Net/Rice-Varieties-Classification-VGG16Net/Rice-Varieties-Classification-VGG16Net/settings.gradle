@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name='Rice Variety Classification'
