@@ -12,4 +12,4 @@ Setelah dilakukannya pengujian, model dari hasil pengujian tersebut dapat disimp
 2. Buka Aplikasi Klasifikasi Varietas Beras kemudian pilih menu "PENDETEKSI VARIETAS BERAS"
 3. Setelah terbuka menu tersebut arahkan kamera ke obyek varietas beras yang ingin dideteksi (jarak kamera dengan obyek sekitar 10 cm), kemudian klik/tap tombol "Deteksi"
 4. Hasil prediksi akan muncul beberapa saat setelah menekan tombol "Deteksi" di bagian bawah layar dalam persentase (% diurutkan dari yang tertinggi). Persentase tertinggi merupakan hasil prediksi yang paling mendekati/mirip.
-<img src="https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/ezgif-3-377733b908a3.gif" width="240" height="427">
+<img src="https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/ezgif-3-094c9401a638.gif" width="240" height="427">   <img src="https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/ezgif-3-377733b908a3.gif" width="240" height="427">
