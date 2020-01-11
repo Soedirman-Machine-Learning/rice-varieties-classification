@@ -6,3 +6,5 @@ Pada program klasifikasi varietas beras ini menggunakan dua macam arsitektur CNN
 Teknik yang digunakan pada kedua arsitektur tersebut dilakukan dengan cara <i>Feature Extraction</i>, yaitu mentransfer hasil pelatihan dari kedua arsitektur tersebut yang telah dilatih pada <i>dataset ImageNet</i> dan untuk klasifikasinya (<i>densely connected layer</i>) menggunakan teknik <i>Global Average Pooling</i>.
 
 Setelah dilakukannya pengujian, model dari hasil pengujian tersebut dapat disimpan dan dikonversi ke dalam bentuk <i>file Tensorflow Lite</i> ".tflite". File tersebut nantinya digunakan sebagai model yang dapat diimpor ke <i>Android Studio</i> yang tentunya juga mengimpor <i>library tensorflow</i> pada build.gradle di dalam <i>project Android Studio</i>. Kemudian dibuat aplikasi Android untuk klasifikasi varietas beras dengan menggunakan fasilitas kamera pada perangkat <i>Smartphone Android</i>.
+
+![Rice Varieties Classification](https://i.ibb.co/N9d82Mp/ezgif-3-377733b908a3.gif)
