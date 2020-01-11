@@ -7,4 +7,9 @@ Teknik yang digunakan pada kedua arsitektur tersebut dilakukan dengan cara <i>Fe
 
 Setelah dilakukannya pengujian, model dari hasil pengujian tersebut dapat disimpan dan dikonversi ke dalam bentuk <i>file Tensorflow Lite</i> ".tflite". File tersebut nantinya digunakan sebagai model yang dapat diimpor ke <i>Android Studio</i> yang tentunya juga mengimpor <i>library tensorflow</i> pada build.gradle di dalam <i>project Android Studio</i>. Kemudian dibuat aplikasi Android untuk klasifikasi varietas beras dengan menggunakan fasilitas kamera pada perangkat <i>Smartphone Android</i>.
 
+## Penggunaan Aplikasi Android
+1. Download aplikasinya di dalam folder Output pada repositori ini. Misal untuk MobileNet : https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/Aplikasi%20Android/MobileNetV1/Output/app-debug-mobilenet.apk
+2. Buka Aplikasi Klasifikasi Varietas Beras kemudian pilih menu "PENDETEKSI VARIETAS BERAS"
+3. Setelah terbuka menu tersebut arahkan kamera ke obyek varietas beras yang ingin dideteksi (jarak kamera dengan obyek sekitar 10 cm), kemudian klik/tap tombol "Deteksi"
+4. Hasil prediksi akan muncul beberapa saat setelah menekan tombol "Deteksi" di bagian bawah layar dalam persentase (% diurutkan dari yang tertinggi). Persentase tertinggi merupakan hasil prediksi yang paling mendekati/mirip.
 <img src="https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/ezgif-3-377733b908a3.gif" width="240" height="427">
