@@ -17,8 +17,16 @@ Setelah dilakukannya pengujian, model dari hasil pengujian tersebut dapat disimp
 7. Model tersebut nantinya dapat digunakan pada aplikasi Android.
 
 ## Penggunaan Aplikasi Android
-1. Download aplikasinya di dalam folder Output pada repositori ini. Misal untuk MobileNet : https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/Aplikasi%20Android/MobileNetV1/Output/app-debug-mobilenet.apk
+### Menggunakan Kamera
+1. Download aplikasinya di dalam folder Output pada repositori ini. Misal untuk MobileNet : https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/Aplikasi%20Android/MobileNetV1/Update/Output/app-debug-mobilenet.apk
 2. Buka Aplikasi Klasifikasi Varietas Beras kemudian pilih menu "PENDETEKSI VARIETAS BERAS"
 3. Setelah terbuka menu tersebut arahkan kamera ke obyek varietas beras yang ingin dideteksi (jarak kamera dengan obyek sekitar 10 cm), kemudian klik/tap tombol "Deteksi"
 4. Hasil prediksi akan muncul beberapa saat setelah menekan tombol "Deteksi" di bagian bawah layar dalam persentase (% diurutkan dari yang tertinggi). Persentase tertinggi merupakan hasil prediksi yang paling mendekati/mirip.
 <img src="https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/ezgif-3-094c9401a638.gif" width="240" height="427">   <img src="https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/ezgif-3-377733b908a3.gif" width="240" height="427">
+
+### Mengimpor Gambar dari Galeri Foto yang Sudah Tersimpan
+1. Buka Aplikasi
+2. Klik menu "PILIH GAMBAR" di bagian atas
+3. Cari dan pilih gambar obyek beras yang akan dideteksi
+4. Klik tombol Deteksi di bagian bawah
+5. Hasil prediksi tertinggi akan muncul beberapa saat setelah menekan tombol "DETEKSI" di bagian bawah layar besertas tingkat probabilitasnya.
