@@ -16,6 +16,7 @@ Setelah dilakukannya pengujian, model dari hasil pengujian tersebut dapat disimp
 6. Unduh model (.tflite) yang sudah didapat dari proses pelatihan
 7. Model tersebut nantinya dapat digunakan pada aplikasi Android.
 
+## <i>Update Versi 2.0</i>
 ## Penggunaan Aplikasi Android
 ### Menggunakan Kamera
 1. Download aplikasinya di dalam folder Output pada repositori ini. Misal untuk MobileNet : https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/Aplikasi%20Android/MobileNetV1/Update/Output/app-debug-mobilenet.apk
