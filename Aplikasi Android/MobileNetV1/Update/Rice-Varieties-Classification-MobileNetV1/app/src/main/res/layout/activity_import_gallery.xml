@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_pendeteksi"
+    tools:context=".DeteksiDariGaleri">
+
+    <TextView
+        android:id="@+id/delaytime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCFF6633"
+        android:padding="2dp"
+        android:fontFamily="times"
+        android:gravity="right"
+        android:text="@string/delay_time"
+        android:textAlignment="gravity"
+        android:textColor="#FFFF00"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/process_name_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:fontFamily="times"
+        android:gravity="left"
+        android:text="  Waktu Proses Deteksi : "
+        android:textAlignment="gravity"
+        android:textColor="#FFFF00"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/hints_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80000000"
+        android:fontFamily="times"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/hints"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/mGalleryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/buttonSelectPhoto"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hints_bar" />
+
+    <ImageView
+        android:id="@+id/mPhotoImageView"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:contentDescription="@string/descriptionImage"
+        app:layout_constraintBottom_toTopOf="@+id/mDetectButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mGalleryButton"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@android:color/darker_gray" />
+
+
+    <Button
+        android:id="@+id/mDetectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#8000CC33"
+        android:padding="7dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="Deteksi"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/mResultTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mResultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="#9000CC33"
+        android:fontFamily="times"
+        android:text="@string/display_result"
+        android:textAlignment="center"
+        android:textColor="#000099"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

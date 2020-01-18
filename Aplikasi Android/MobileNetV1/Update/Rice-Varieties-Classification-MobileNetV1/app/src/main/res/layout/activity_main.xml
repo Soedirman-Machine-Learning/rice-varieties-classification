@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_move_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/pendeteksi"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_move_import"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/import_gallery"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_move_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/deskripsi"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_move_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/bantuan"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_move_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/tentang"
+        android:textStyle="bold"/>
+
+</LinearLayout>

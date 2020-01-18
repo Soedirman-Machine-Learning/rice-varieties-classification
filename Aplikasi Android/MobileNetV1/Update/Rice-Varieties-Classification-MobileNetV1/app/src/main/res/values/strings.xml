@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">KVB MobileNetV1</string>
+    <string name="pendeteksi">Deteksi Beras dengan Kamera</string>
+    <string name="import_gallery">Deteksi Beras dari Galeri</string>
+    <string name="deskripsi">Deskripsi Varietas Beras</string>
+    <string name="content_basmathi">Beras basmathi bersal dari negara india/pakistan, beras basmathi berasal dari bahasa sanskerta ‘basmathi’ artinya berarti harum atau wangi dalam bahasa india ia juga mempunyai maksud ”soft rice” yaitu lembut.\n
+            Beras ini akan melar memanjang butiran, sedikit pera, mudah terurai butiran berasnya dan aromanya sangat harum, beras ini memang aromanya sangat harum. Keistimewaan lainnya, butiran atau buliran beras ini panjang dan kecil melebihi ukuran beras yang biasanya agak pendek dan bulat.\n
+            Sumber : https://www.asshidiqaqiqah.com/kandungan-kandungan-beras-basmati/</string>
+    <string name="content_ir64">Beras IR 64 merupakan salah satu jenis varietas padi sawah yang memiliki bentuk tegak, tinggi sekitar 115-126 cm. Gabahnya berbentuk ramping dan panjang dan berwarna kuning bersih. Padi jenis ini cocok ditanam di daerah lahan sawah irigasi dataran rendah sampai sedang.\n
+            Beras IR 64 adalah jenis beras yang pulen jika dimasak menjadi nasi karena memiliki kadar amilosa sebanyak 23%. Bobot beras per seribu butir beras IR64 adalah 24,1 gram.\n
+            Sumber : Suprihatno, B, Daradjat, dkk. 2010. Deskripsi Varietas Padi. Balai Besar Penelitian Tanaman Padi.\n</string>
+    <string name="content_ketan">Beras ketan putih (Oryza sativa glutinosa) merupakan salah satu varietas padi yang termasuk dalam famili Graminae.\n
+            Butir beras sebagian besar terdiri dari zat pati sekitar 80-85% yang terdapat dalam endosperma yang tersusun oleh granula-granula pati yang berukuran 3-10 milimikron. Beras ketan juga mengandung vitamin (terutama pada bagian aleuron), mineral dan air. Dari komposisi kimiawinya diketahui bahwa karbohidrat penyusun utama beras ketan adalah pati. Pati merupakan karbohidrat polimer glukosa yang mempunyai dua struktur yakni amilosa dan amilopektin.\n
+            Sumber : http://www.alatcetakrengginang.com/2012/02/beras-ketan-sifat-fisika-kimianya.html</string>
+    <string name="tentang">Tentang Aplikasi</string>
+    <string name="content_about">Aplikasi ini dibuat hanya untuk klasifikasi tiga varietas beras (Basmathi, IR-64, dan Ketan) menggunakan sebuah metode CNN (<i>Convolutional Neural Network</i>) dengan model arsitektur MobileNetV1. Arsitektur tersebut dilatih pada <i>Google Colaboratory</i>. Setelah dilatih disimpan modelnya dan dikonversi menggunakan <i>TensorFlow Lite</i>. Setelah dikonversi diunduh <i>file</i> modelnya dan di-<i>import</i> untuk diimplementasikan pada <i>smartphone Android</i> agar dapat melakukan klasifikasi varietas beras secara langsung menggunakan sebuah perangkat Android.\n\n
+        Pada aplikasi ini juga diatur secara otomatis penggunaan <i>flash</i> kameranya agar perubahan cahaya yang ada tidak berbeda signifikan ketika berada di luar ruangan yang banyak cahaya maupun di dalam ruangan yang minim cahaya karena cahaya <i>flash</i> kamera <i>smartphone</i> dapat menyala dan mati secara otomatis berdasarkan intensitas cahaya yang ada. Hal itu dapat mempermudah pengguna untuk mendeteksi varietas berasnya.\n\n
+        <i>Sourcecode</i> program pada <i>Google Colaboratory</i> dan <i>Android Studio</i> : https://github.com/Soedirman-Machine-Learning/rice-varieties-classification\natau\nhttps://github.com/Vidi005/Klasifikasi-3-Varietas-Beras</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="content_work">Aplikasi ini bekerja dengan cara mengambil citra/gambar obyek dari varietas beras menggunakan kamera <i>smartphone</i> atau mengimpor gambar dari galeri foto yang sudah tersimpan. Setelah itu diekstrak fitur dari piksel obyek tersebut dan diubah ke dalam bentuk <i>array</i> dengan ukuran piksel 224 x 224 dengan format gambar berwarna (RGB). Kemudian dilatih dan diproses menggunakan model yang sudah dilatih sebelumnya sehingga dapat diprediksi hasil keluaran dari varietas beras yang dideteksi.</string>
+    <string name="content_step_1">Buka Aplikasi Klasifikasi Varietas Beras kemudian pilih menu "DETEKSI BERAS DENGAN KAMERA" untuk klasifikasi secara langsung</string>
+    <string name="content_step_2">Setelah terbuka menu tersebut arahkan kamera ke obyek varietas beras yang ingin dideteksi (jarak kamera dengan obyek sekitar 10 cm), kemudian klik/tap tombol "Deteksi"</string>
+    <string name="content_step_3">Hasil prediksi akan muncul beberapa saat setelah menekan tombol "Deteksi" di bagian bawah layar dalam persentase (% diurutkan dari yang tertinggi). Persentase tertinggi merupakan hasil prediksi yang paling mendekati/mirip</string>
+    <string name="content_step_4">Buka menu "DETEKSI BERAS DARI GALERI" jika ingin mengklasifikasi secara manual dengan mengimpor gambar yang sudah tersimpan di galeri foto</string>
+    <string name="content_step_5">Klik tombol "PILIH GAMBAR" dan cari gambar obyek beras yang ingin dideteksi</string>
+    <string name="content_step_6">Selanjutnya tekan tombol DETEKSI dan hasil prediksinya akan muncul beberapa saat setelah menekannya di bagian bawah layar</string>
+    <string name="content_step_7">Jika Anda ingin mengetahui penjelasan singkat tiap varietas beras pilih menu "DESKRIPSI VARIETAS BERAS, Menu "BANTUAN" untuk mengetahui cara penggunaan aplikasi ini, dan Menu "TENTANG APLIKASI" sebagai informasi pembuatan aplikasi ini.</string>
+    <string name="hasil_1_nhasil_2_nhasil_3"><b>Hasil 1</b>\nHasil 2\nHasil 3</string>
+    <string name="process_time">… ms   </string>
+    <string name="delay_time">… ms   </string>
+    <string name="info">Klik DETEKSI untuk Klasifikasi</string>
+    <string name="buttonSelectPhoto">Pilih Gambar</string>
+    <string name="descriptionImage">Lihat untuk Menampilkan Gambar</string>
+    <string name="display_result"><b>Hasil Prediksi</b>\n</string>
+    <string name="hints">Pilih Gambar Lalu Klik DETEKSI</string>
+    <string name="update"><b>Pembaruan Fitur :</b></string>
+    <string name="content_update_1">Versi 1.0\n- Klasifikasi 3 varietas beras dengan kamera\n- Memperbaiki <i>bug force closed</i>\n- Mengubah aspek rasio kamera menjadi 4:3\n- Menambah fitur waktu respon deteksi</string>
+    <string name="content_update_2">Versi 2.0\n- Menambah fitur deteksi dengan impor galeri</string>
+</resources>
