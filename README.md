@@ -31,3 +31,4 @@ Setelah dilakukannya pengujian, model dari hasil pengujian tersebut dapat disimp
 3. Cari dan pilih gambar obyek beras yang akan dideteksi
 4. Klik tombol Deteksi di bagian bawah
 5. Hasil prediksi tertinggi akan muncul beberapa saat setelah menekan tombol "DETEKSI" di bagian bawah layar besertas tingkat probabilitasnya.
+<img src="https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/ezgif-1-ed7d9804d3e6.gif" width="240" height="427">
