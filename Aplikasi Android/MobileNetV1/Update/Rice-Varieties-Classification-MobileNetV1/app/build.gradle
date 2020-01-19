@@ -10,7 +10,7 @@ android {
         applicationId "com.tflite.ricevarietiesclassificationmobilenetv1"
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 1
+        versionCode 2
         versionName "2.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
