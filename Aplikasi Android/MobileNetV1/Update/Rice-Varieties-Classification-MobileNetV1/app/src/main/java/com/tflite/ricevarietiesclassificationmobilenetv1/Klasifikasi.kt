@@ -1,4 +1,4 @@
-package com.tflite.klasifikasivarietasberas
+package com.tflite.ricevarietiesclassificationmobilenetv1
 
 import android.content.res.AssetManager
 import android.graphics.Bitmap
