@@ -1,4 +1,4 @@
-package com.tflite.klasifikasivarietasberas
+package com.tflite.ricevarietiesclassificationmobilenetv1
 
 data class Deteksi(
     val name: String,
