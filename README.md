@@ -16,7 +16,19 @@ Setelah dilakukannya pengujian, model dari hasil pengujian tersebut dapat disimp
 6. Unduh model (.tflite) yang sudah didapat dari proses pelatihan
 7. Model tersebut nantinya dapat digunakan pada aplikasi Android.
 
+## <i>Video</i> Hasil Pelatihan dan Pengujian pada <i>Google Colaboratory</i>
+Dapat dilihat pada <i>link</i> berikut : https://drive.google.com/open?id=1QhBopSm2h9zpCm0mFKeE8hWMV-ExZqz0
+
+## Aplikasi <i>Android VGG-16Net</i>
+Karena ukuran <i>file</i> yang hanya dapat diunggah pada <i>Github</i> maksimal 25 MB maka untuk ukuran <i>file</i> yang lebih besar dari 25 MB disimpan di penyimpanan <i>Google Drive</i>.
+1. Model <i>TensorFlow Lite</i> dapat diunduh di <i>link</i> berikut : https://drive.google.com/open?id=1gCcnYz8qjQntyMmykJc0kvpMiSNooWYG
+2. Aplikasi <i>Android</i>-nya dapat diunduh pada <i>link</i> : https://drive.google.com/open?id=1N-lEAD4Qg_TQw0yp8N5gGp9lE-Yvs4gv
+
 ## <i>Update Versi 2.0</i>
+Untuk Pembaruan Aplikasi KVB Versi 2.0 dapat dibuka pada direktori berikut:
+1. MobileNetV1 : "rice-varieties-classification/Aplikasi Android/MobileNetV1/Update/"
+2. VGG-16Net : "rice-varieties-classification/Aplikasi Android/VGG16Net/Update/"
+
 ## Penggunaan Aplikasi Android
 ### Menggunakan Kamera
 1. Download aplikasinya di dalam folder Output pada repositori ini. Misal untuk MobileNet : https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/Aplikasi%20Android/MobileNetV1/Update/Output/app-debug-mobilenet.apk
