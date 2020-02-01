@@ -1,4 +1,11 @@
 # <i>Rice Varieties Classification</i> (Klasifikasi Varietas Beras)
+<p align="center">
+  <img src="https://github.com/Soedirman-Machine-Learning/rice-varieties-classification/blob/master/logo_kvb.png" width="256" height="256">
+  <br>
+  <b>Logo KVB</b>
+</p>
+
+## Penjelasan Singkat
 Aplikasi ini dibuat untuk melakukan klasifikasi tiga varietas beras (Basmathi, IR-64, dan Ketan) menggunakan metode CNN (<i>Convolutional Neural Network</i>).
 Program CNN dibuat menggunakan infrastruktur <i>Google Colaboratory</i> dengan bahasa pemrograman <i>Python</i> dan menggunakan <i>Framework Keras</i> dan TensorFlow yang kemudian disimpan dalam bentuk <i>file Jupyter Notebooks</i> “.ipynb”. File dari program tersebut disimpan ke layanan repositori <i>web development</i> pada <i>Platform Github</i>.
 <i>Dataset</i> pelatihan dan pengujian disimpan pada <i>Github</i> dengan 3 macam kelas (varietas Beras Basmathi, IR-64, dan Ketan). Masing-masing jumlah <i>dataset</i> pelatihan setiap kelas/varietas sebanyak 75 gambar dengan format ".jpeg" dan untuk <i>dataset</i> pengujian tiap kelasnya sebanyak 15 gambar berformat ".jpeg". Untuk <i>folder dataset</i> pelatihan dan pengujian disimpan pada folder yang terpisah agar memudahkan dalam melihat pengujiannya.
@@ -25,6 +32,7 @@ Karena ukuran <i>file</i> yang hanya dapat diunggah pada <i>Github</i> maksimal 
 2. Aplikasi <i>Android</i>-nya dapat diunduh pada <i>link</i> : https://drive.google.com/open?id=1N-lEAD4Qg_TQw0yp8N5gGp9lE-Yvs4gv
 
 ## <i>Update Versi 2.0</i>
+Aplikasi KVB versi 2.0 ini ditambahkan fitur deteksi dengan mengimpor gambar dari galeri foto.
 Untuk Pembaruan Aplikasi KVB Versi 2.0 dapat dibuka pada direktori berikut:
 1. MobileNetV1 : "rice-varieties-classification/Aplikasi Android/MobileNetV1/Update/"
 2. VGG-16Net : "rice-varieties-classification/Aplikasi Android/VGG16Net/Update/"
